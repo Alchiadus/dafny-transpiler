@@ -15,7 +15,12 @@ The transpiler takes syntactically correct annotated Dafny code as input and pro
   - an `// #parallel` annotation to start the list of parallel program components
   - two or more `method` calls corresponding to the parallel program components
   - an `// #endparallel` annotation to end the list of parallel program components
-- one or two `methods` that describe the parralel program components listed in the `Main` method
+- one or two `methods` that describe the parallel program components listed in the `Main` method. Each statement (or multiple statements, if they are atomic), is surrounded with `assertions`:
+  - the first `assertion`, the precondition of the statement, is annotated by appending `// #POG`
+  - the second `assertion`, the postcondition of the statement, is annotated by appending `// #QOG`
+  - optionally, to avoid duplicating the `// #QOG` and `// #POG` assertions, the `// #ROG` annotation can be used to annotate `assertions` between sequential non-atomic statements
+
+To help the parser with correctly identifying methods, each method is closed by annotating the line with the closing curly bracket with `// #endmethod MethodName`.
 
 Several examples can be found in the `examples/` directory.
 
