@@ -10,6 +10,7 @@
     "parallelism",
     "verification"
   ],
+  "repository": "https://github.com/alchiadus/dafny-transpiler",
   "license": "MIT",
   "author": {
     "name": "Philippe Denissen",
