@@ -17,7 +17,6 @@
     "email": "p.e.j.g.denissen@student.tue.nl"
   },
   "main": "lib/main.js",
-  "bin": "dist/dafny-transpiler.js",
   "scripts": {
     "build": "webpack --progress --colors"
   },

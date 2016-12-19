@@ -41,10 +41,6 @@ $ npm install
 $ npm run build
 # transpile an example file
 $ ./dist/dafny-transpiler.js examples/example-1.dfy
-# recommended, but optional: make dafny-transpiler available globally
-$ npm link
-# the 'dafny-transpiler' command can now be used from within any folder
-$ dafny-transpiler examples/example-1.dfy
 ```
 
 ### Distribution
