@@ -12,10 +12,10 @@ The transpiler takes syntactically correct annotated Dafny code as input and pro
 - a `class` that encompasses the parallel program
 - zero or more `instance variables` used by the parallel program components
 - one `method`, typically called `Main`, to describe the parallel program, with the following properties:
-  - an `// #parallel` annotation to start the list of parallel program components
+  - a `// #parallel` annotation to start the list of parallel program components
   - two or more `method` calls corresponding to the parallel program components
   - an `// #endparallel` annotation to end the list of parallel program components
-- one or two `methods` that describe the parallel program components listed in the `Main` method. Each statement (or multiple statements, if they are atomic), is surrounded with `assertions`:
+- two or more `methods` that describe the parallel program components listed in the `Main` method. Each statement (or multiple statements, if they are atomic), is surrounded with `assertions`:
   - the first `assertion`, the precondition of the statement, is annotated by appending `// #POG`
   - the second `assertion`, the postcondition of the statement, is annotated by appending `// #QOG`
   - optionally, to avoid duplicating the `// #QOG` and `// #POG` assertions, the `// #ROG` annotation can be used to annotate `assertions` between sequential non-atomic statements
