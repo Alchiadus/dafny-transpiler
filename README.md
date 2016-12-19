@@ -1,4 +1,4 @@
-Dafny Transpiler
+Dafny Owicki-Gries Transpiler
 ================
 
 A source-to-source compiler (transpiler) for Dafny.
