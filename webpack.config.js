@@ -12,7 +12,7 @@ module.exports = {
     __filename: true
   },
   context: dirLib,
-  entry: './main.js',
+  entry: './cli.js',
   output: {
     path: dirDist,
     filename: 'dafny-transpiler.js'
