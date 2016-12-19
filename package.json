@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "dafny-transpiler",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A source-to-source compiler that adds experimental support for parallel program verification to Dafny",
   "keywords": [
     "concurrency",
