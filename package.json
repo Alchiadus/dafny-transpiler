@@ -26,12 +26,10 @@
     "babel-loader": "^6.0.0",
     "babel-plugin-transform-class-properties": "^6.0.0",
     "babel-preset-env": "^1.0.0",
+    "commander": "^2.0.0",
     "eslint": "^3.0.0",
     "eslint-loader": "^1.0.0",
     "eslint-plugin-babel": "^4.0.0",
     "webpack": "2.2.0-rc.1"
-  },
-  "dependencies": {
-    "commander": "^2.0.0"
   }
 }
