@@ -11,18 +11,16 @@
   ],
   "rules": {
     "strict": 0,
-    "babel/arrow-parens": 1,
-    "babel/generator-star-spacing": 1,
     "babel/new-cap": 0,
     "babel/object-curly-spacing": [
       1,
       "never"
     ],
-    "babel/object-shorthand": 1,
     "array-bracket-spacing": [
       1,
       "never"
     ],
+    "arrow-parens": 1,
     "brace-style": [
       1,
       "1tbs", {
@@ -58,6 +56,7 @@
       0,
       "expression"
     ],
+    "generator-star-spacing": 1,
     "id-length": [
       0, {
         "min": 2,
@@ -87,6 +86,7 @@
         "afterColon": true
       }
     ],
+    "keyword-spacing": 1,
     "lines-around-comment": [
       1, {
         "beforeBlockComment": true,
@@ -129,6 +129,7 @@
       0,
       "never"
     ],
+    "object-shorthand": 1,
     "one-var": [
       1,
       "never"
@@ -168,10 +169,6 @@
         "ignoreCase": false
       }
     ],
-    "space-after-keywords": [
-      1,
-      "always"
-    ],
     "space-before-blocks": [
       1,
       "always"
@@ -189,7 +186,6 @@
         "int32Hint": false
       }
     ],
-    "space-return-throw-case": 1,
     "space-unary-ops": [
       1, {
         "words": false,
