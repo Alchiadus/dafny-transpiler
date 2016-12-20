@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0
+
+- Fixed a soundness issue with local correctness.
+
+  Previously, one local correctness method was generated for each program component. This version aims to guarantee soundness by generating a new method for each atomic statement of a program component.
+
 ## 0.2.0
 
 - Improved naming scheme for local correctness methods:
