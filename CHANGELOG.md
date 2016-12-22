@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.0
+
+- Added support for Windows line-endings.
+- Added support for Dafny method annotations, for example `decreases *;`.
+
 ## 0.3.0
 
 - Fixed a soundness issue with local correctness.
